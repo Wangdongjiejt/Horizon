@@ -65,6 +65,60 @@
         "category": "semiconductors"
       },
       {
+        "name": "OpenAI News",
+        "url": "https://openai.com/news/rss.xml",
+        "enabled": true,
+        "category": "official-ai"
+      },
+      {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "category": "official-ai"
+      },
+      {
+        "name": "Google Research",
+        "url": "https://research.google/blog/rss/",
+        "enabled": true,
+        "category": "ai-research"
+      },
+      {
+        "name": "Latent Space",
+        "url": "https://www.latent.space/feed",
+        "enabled": true,
+        "category": "ai-industry"
+      },
+      {
+        "name": "Import AI",
+        "url": "https://jack-clark.net/feed/",
+        "enabled": true,
+        "category": "ai-research"
+      },
+      {
+        "name": "Cloudflare Blog",
+        "url": "https://blog.cloudflare.com/rss/",
+        "enabled": true,
+        "category": "engineering"
+      },
+      {
+        "name": "GitHub Engineering",
+        "url": "https://github.blog/engineering/feed/",
+        "enabled": true,
+        "category": "engineering"
+      },
+      {
+        "name": "Julia Evans",
+        "url": "https://jvns.ca/atom.xml",
+        "enabled": true,
+        "category": "engineering"
+      },
+      {
+        "name": "阮一峰网络日志",
+        "url": "https://www.ruanyifeng.com/blog/atom.xml",
+        "enabled": true,
+        "category": "china-tech"
+      },
+      {
         "name": "LWN.net",
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": false,
@@ -100,7 +154,14 @@
         {
           "channel": "zaihuapd",
           "enabled": true,
-          "fetch_limit": 15
+          "fetch_limit": 8,
+          "category": "china-tech"
+        },
+        {
+          "channel": "NewlearnerChannel",
+          "enabled": true,
+          "fetch_limit": 8,
+          "category": "china-tech"
         }
       ]
     }
